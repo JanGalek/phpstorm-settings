@@ -1,0 +1,24 @@
+{
+    "name": "<user>/<package>",
+    "description": "Description of package",
+    "homepage": "www.test.com",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "<FirstName> <SecondName>",
+            "homepage": "www.mywebsite.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Namespace\\": "src/NamespacePath"
+        }
+    },
+    "require": {
+        "php": ">= 7.0.0"
+    },
+    "require-dev": {
+        "nette/tester": "^1.7"
+    }
+}
